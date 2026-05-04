@@ -1,0 +1,13 @@
+[package]
+name = "nd2cpp-bridge"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "nd2cpp_bridge"
+crate-type = ["staticlib", "cdylib"]
+
+[dependencies]
+nd2-rs = { path = "../nd2-rs" }
+serde_json = "1.0"
+libc = "0.2"
