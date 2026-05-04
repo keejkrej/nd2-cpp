@@ -1,7 +1,7 @@
 vcpkg_from_git(
     OUT_SOURCE_PATH SOURCE_PATH
     URL "https://github.com/keejkrej/nd2-cpp.git"
-    REF 0ced7c914858dac7f87b15a81b302c15b9098db5
+    REF cfe927605b6ef597d01b6ea525efd322d6155629
     FETCH_REF main
 )
 
