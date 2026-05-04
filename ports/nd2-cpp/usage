@@ -1,0 +1,6 @@
+nd2-cpp provides CMake targets:
+
+  find_package(nd2-cpp CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE nd2-cpp::nd2-cpp)
+
+The optional tools feature installs the nd2info command-line tool.

@@ -1,0 +1,14 @@
+{
+  "name": "nd2-cpp",
+  "version-semver": "1.0.0",
+  "description": "Standalone C++ implementation of the Nikon ND2 read SDK C API.",
+  "homepage": "https://github.com/keejkrej/nd2-cpp",
+  "dependencies": [
+    "zlib"
+  ],
+  "features": {
+    "tools": {
+      "description": "Build the nd2info command-line inspection tool."
+    }
+  }
+}
