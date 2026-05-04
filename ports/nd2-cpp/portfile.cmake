@@ -25,4 +25,4 @@ if("tools" IN_LIST FEATURES)
     vcpkg_copy_tools(TOOL_NAMES nd2info AUTO_CLEAN)
 endif()
 
-vcpkg_install_copyright(COMMENT "No license file is included in the upstream nd2-cpp repository.")
+vcpkg_install_copyright(FILE_LIST "${SOURCE_PATH}/LICENSE")
